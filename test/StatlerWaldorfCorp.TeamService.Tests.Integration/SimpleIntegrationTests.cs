@@ -28,7 +28,7 @@ namespace StatlerWaldorfCorp.TeamService.Tests.Integration
 
             teamZombie = new Team() {
                 ID = Guid.NewGuid(),
-                Name = "Zombie"
+                Name = "Jasmine"
             };
         }
 
@@ -52,7 +52,7 @@ namespace StatlerWaldorfCorp.TeamService.Tests.Integration
             string raw = await getResponse.Content.ReadAsStringAsync();            
             List<Team> teams = JsonConvert.DeserializeObject<List<Team>>(raw);
             Assert.Equal(1, teams.Count());
-            Assert.Equal("Zombie", teams[0].Name);
+            Assert.Equal("Jasmine", teams[0].Name);
             Assert.Equal(teamZombie.ID, teams[0].ID);
         }
     }    
