@@ -1,9 +1,22 @@
 ﻿<Properties StartupConfiguration="{4E05DB5A-DC4C-4952-A822-D73B2EFBA2A9}|Default">
   <MonoDevelop.Ide.ItemProperties.StatlerWaldorfCorp.TeamService PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="test/StatlerWaldorfCorp.TeamService.Test/TestMemoryTeamRepository.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/StatlerWaldorfCorp.TeamService.Tests.Integration/SimpleIntegrationTests.cs">
     <Files>
-      <File FileName="test/StatlerWaldorfCorp.TeamService.Test/TestMemoryTeamRepository.cs" Line="6" Column="41" />
+      <File FileName="test/StatlerWaldorfCorp.TeamService.Test/TestMemoryTeamRepository.cs" Line="20" Column="2" />
+      <File FileName="test/StatlerWaldorfCorp.TeamService.Tests.Integration/SimpleIntegrationTests.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StatlerWaldorfCorp" expanded="True">
+            <Node name="StatlerWaldorfCorp.TeamService" expanded="True" />
+            <Node name="StatlerWaldorfCorp.TeamService.Tests.Integration" expanded="True">
+              <Node name="SimpleIntegrationTests.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
