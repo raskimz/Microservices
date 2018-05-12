@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{3C5FF4BB-74CB-4D7C-9EB9-4E02D91C989F}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="StatlerWaldorfCorp.TeamService.Test" expanded="True">
+            <Node name="StatlerWaldorfCorp.TeamService.Test" expanded="True">
+              <Node name="Dependencies" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.StatlerWaldorfCorp.TeamService.Test PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
