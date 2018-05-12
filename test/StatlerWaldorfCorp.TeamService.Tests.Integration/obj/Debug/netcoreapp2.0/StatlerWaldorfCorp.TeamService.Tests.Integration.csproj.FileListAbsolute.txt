@@ -14,3 +14,4 @@
 /Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj/Debug/netcoreapp2.0/StatlerWaldorfCorp.TeamService.Tests.Integration.AssemblyInfo.cs
 /Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj/Debug/netcoreapp2.0/StatlerWaldorfCorp.TeamService.Tests.Integration.dll
 /Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj/Debug/netcoreapp2.0/StatlerWaldorfCorp.TeamService.Tests.Integration.pdb
+/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj/Debug/netcoreapp2.0/StatlerWaldorfCorp.TeamService.Tests.Integration.csproj.CopyComplete

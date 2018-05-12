@@ -3397,7 +3397,8 @@
           "Microsoft.Extensions.Configuration.CommandLine": "2.0.2",
           "Microsoft.Extensions.Logging": "2.0.2",
           "Microsoft.Extensions.Logging.Console": "2.0.2",
-          "Microsoft.Extensions.Logging.Debug": "2.0.2"
+          "Microsoft.Extensions.Logging.Debug": "2.0.2",
+          "Microsoft.NETCore.App": "2.0.0"
         },
         "compile": {
           "bin/placeholder/StatlerWaldorfCorp.TeamService.dll": {}
@@ -9591,13 +9592,13 @@
       "projectName": "StatlerWaldorfCorp.TeamService.Test",
       "projectPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Test/StatlerWaldorfCorp.TeamService.Test.csproj",
       "packagesPath": "/Users/jasmine/.nuget/packages/",
-      "outputPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Test/obj",
+      "outputPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Test/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jasmine/.config/NuGet/NuGet.Config"
+        "/Users/jasmine/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -9623,23 +9624,23 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.7.0, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0",
+            "version": "[2.0.0, )",
             "autoReferenced": true
           },
           "xunit": {
             "target": "Package",
-            "version": "2.3.1"
+            "version": "[2.3.1, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "2.3.1"
-          },
-          "Microsoft.NET.Test.Sdk": {
-            "target": "Package",
-            "version": "15.7.0"
+            "version": "[2.3.1, )"
           }
         },
         "imports": [

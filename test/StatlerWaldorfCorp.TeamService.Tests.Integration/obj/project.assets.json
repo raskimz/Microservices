@@ -3423,7 +3423,8 @@
           "Microsoft.Extensions.Configuration.CommandLine": "2.0.2",
           "Microsoft.Extensions.Logging": "2.0.2",
           "Microsoft.Extensions.Logging.Console": "2.0.2",
-          "Microsoft.Extensions.Logging.Debug": "2.0.2"
+          "Microsoft.Extensions.Logging.Debug": "2.0.2",
+          "Microsoft.NETCore.App": "2.0.0"
         },
         "compile": {
           "bin/placeholder/StatlerWaldorfCorp.TeamService.dll": {}
@@ -9689,13 +9690,13 @@
       "projectName": "StatlerWaldorfCorp.TeamService.Tests.Integration",
       "projectPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/StatlerWaldorfCorp.TeamService.Tests.Integration.csproj",
       "packagesPath": "/Users/jasmine/.nuget/packages/",
-      "outputPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj",
+      "outputPath": "/Volumes/Local D/Learning_Projects/Microservices ASP.NET Core/Microservices/test/StatlerWaldorfCorp.TeamService.Tests.Integration/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/jasmine/.config/NuGet/NuGet.Config"
+        "/Users/jasmine/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -9721,27 +9722,26 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "suppressParent": "All",
+          "Microsoft.AspNetCore.TestHost": {
             "target": "Package",
-            "version": "2.0",
-            "autoReferenced": true
+            "version": "[1.1.0, )"
           },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
-            "version": "15.6.0"
+            "version": "[15.6.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.0.0, )",
+            "autoReferenced": true
           },
           "xunit": {
             "target": "Package",
-            "version": "2.3.1"
+            "version": "[2.3.1, )"
           },
           "xunit.runner.visualstudio": {
             "target": "Package",
-            "version": "2.3.1"
-          },
-          "Microsoft.AspNetCore.TestHost": {
-            "target": "Package",
-            "version": "1.1.0"
+            "version": "[2.3.1, )"
           }
         },
         "imports": [
